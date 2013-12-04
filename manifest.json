@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+  	"name": "Coffee?",
+  	"version": "0.3",
+  	"description": "Who wants a coffee?",
+  	"permissions": ["http://sandbox.cuttingedge.com.au/coffee/*", "notifications"],
+    "background": { "scripts": ["js/coffee.js"] },
+  	"browser_action": {
+      "default_icon": "img/icon.png",
+    	"default_popup": "popup.html"
+  	},
+    "options_page": "options.html",
+    "icons": {
+      "20" : "img/icon.png",
+      "48" : "img/48.png",
+      "128" : "img/128.png"
+    }
+}
